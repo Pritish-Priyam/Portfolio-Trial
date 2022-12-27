@@ -185,6 +185,15 @@ hr{
   background-color: #1A120B;
 }
 
+.proj-heading
+{
+  text-decoration: underline #00ada7;
+}
+
+.exp-heading
+{
+  text-decoration: underline rgb(1, 219, 1);
+}
 .px-3
 {
   display: flex;
