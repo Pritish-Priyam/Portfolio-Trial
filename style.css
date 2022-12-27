@@ -115,6 +115,16 @@ hr{
   margin-top: -1.5vw;
 }
 
+.proj-heading
+{
+  text-decoration: underline #00FFF6;
+}
+
+.exp-heading
+{
+  text-decoration: underline #000000;
+  font-weight: bolder;
+}
 .featurette
 {
   
@@ -140,6 +150,7 @@ hr{
 {
   background-color: #e3e1db;
   color: #1A120B;
+  font-weight: bolder;
 }
 
 .lead
@@ -185,15 +196,6 @@ hr{
   background-color: #1A120B;
 }
 
-.proj-heading
-{
-  text-decoration: underline #00ada7;
-}
-
-.exp-heading
-{
-  text-decoration: underline rgb(1, 219, 1);
-}
 .px-3
 {
   display: flex;
@@ -225,10 +227,12 @@ hr{
   font-size: clamp(12px,1.15vw,24px);
   line-height: 1.75;
 }
+
 .ccme-head
 {
-font-size: clamp(28px,2.85vw,35px);
+font-size: clamp(26px,2.85vw,35px);
 color: #FAF8F1;
+text-decoration: underline  #00ada7;
 }
 .btn-ccme
 {
@@ -241,6 +245,7 @@ color: #FAF8F1;
 {
   color:#dfdbcf;
 }
+
 @media (max-width: 700px)
 {
   .expproj
