@@ -1,0 +1,370 @@
+body
+{
+  background-color: #1A120B;
+  color: #FAF8F1;
+  font-family: 'Poppins',sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+hr{ 
+  background-color: white;
+
+}
+
+.home-page
+{
+  margin:12% auto;
+  height:75vh;
+  -webkit-box-pack: center;
+  margin-bottom: 0;
+}
+
+.button-container
+{
+  position:fixed;
+  left:2%;
+}
+
+
+.homepage-intro
+{
+  margin-left:15%;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+#homepage-hi
+{
+  font-size: clamp(15px,1.25vw,30px);
+}
+
+#homepage-name
+{
+  font-weight: bolder;
+  font-size: clamp(30px,6vw,70px);
+  color: hsl(48, 100%, 99%);
+  text-decoration: underline #00ada7 4px;
+}
+
+.homepage-brieftext
+{
+  line-height: 1.75;
+  margin-top: 5px;
+  color: #dfdbcf;
+  font-size: clamp(12px,1vw,20px);
+}
+
+.template-image
+{
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.tmp-image
+{
+  text-align: center;
+  width: 80%;
+}
+.tmp-image2
+{
+  visibility: hidden;
+  width:0;
+  height:0;
+}
+.btn-dark
+{
+  border-color: #DC3535;
+  color:#64ffda;
+  font-size: clamp(15px,1.35vw,35px);
+}
+
+.homepage-learnmore
+{
+  margin-top: 25px;
+}
+
+.btn-dark:hover
+{
+  transform: scale(0.95);
+  color:#dfdbcf;
+}
+
+.navbar
+{
+  position: relative;
+  top:4px;
+  margin-right: 3%;
+  margin-left: 1.55%;
+  margin-bottom: 4px;
+}
+
+.homepage-image
+{
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.homepage-avatar
+{
+  max-width:60%;
+  min-width: 30%;
+  margin-left: 4vw;
+  margin-top: -1.5vw;
+}
+
+.featurette
+{
+  
+
+}
+
+.hpskill
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+
+}
+.hp-skills
+{
+  display: inline-block;
+  line-height: 3.5;
+  width: auto;
+}
+
+.experience
+{
+  background-color: #e3e1db;
+  color: #1A120B;
+}
+
+.lead
+{
+  line-height: 1.75;
+  font-size: clamp(15px,1.35vw,25px);
+  font-weight: bolder;
+  color: #CB1C8D;
+  margin-left: 6.5vw;
+  margin-top:2.5vw;
+}
+
+.page2
+{
+  align-items: flex-start;
+}
+
+.fw-normal
+{
+  text-decoration: underline #64ffda 3px;
+  font-size: clamp(22px,2.25vw,60px);
+  color: #e3e1db;
+  font-weight: bold;
+  margin-left: 1vw;
+  line-height: 1.5;
+}
+
+.arrow-head
+{
+  color: #dfdbcf;
+}
+
+.hp-mockup
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-footer
+{
+  background-color: #1A120B;
+}
+
+.px-3
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  
+  font-size: clamp(20px,2.5vw,40px);
+  height: auto;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.ccme
+{
+  justify-content: center;
+  align-items: center;
+  color: #e3e1db;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+.lead2
+{
+
+  width:70vw;
+  color: #dfdbcf;
+  margin-top: 2%;
+  font-size: clamp(12px,1.15vw,24px);
+  line-height: 1.75;
+}
+.ccme-head
+{
+font-size: clamp(28px,2.85vw,35px);
+color: #FAF8F1;
+font-weight: bold;
+}
+.btn-ccme
+{
+  border-color: #DC3535;
+  font-size: clamp(13px,1.35vw,23px);
+  color: #64ffda;
+}
+
+.lead3:hover
+{
+  color:#dfdbcf;
+}
+@media (max-width: 700px)
+{
+  .expproj
+  {
+    /*row-gap: 2vh;*/
+    height: 90vh;
+  }
+  .expproj-card
+  {
+    justify-content: center;
+    align-items: center;
+    row-gap: 10vw;
+  }
+  .px-3
+  {
+    height: 40vh;
+  }
+  .lead2
+  {
+    width: 80vw;
+  }
+  .template-image
+{
+  height: 95vh;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.tmp-image
+{
+  display: none;
+}
+.tmp-image2
+{
+  visibility: visible;
+  width: auto;
+  height: auto;
+  max-height: 90vh;
+}
+.home-page
+{
+  height: 90vh;
+  align-items: center;
+  margin: 0 0 0 0;
+}
+
+.homepage-intro
+{
+  line-height: 2;
+  margin: 0;
+  margin-top: 15%;
+  height: 100%;
+}
+.homepage-image
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-avatar
+{
+  margin: 0 auto;
+  max-width: 60%;
+}
+.featurette
+{
+  
+}
+.fw-normal
+{
+  text-decoration: underline #00ada7 1.5px;
+  margin-top: 5vw;
+  margin-bottom: 20px;
+}
+
+.hpskill
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height:auto;
+  margin-left: 15%;
+}
+.hp-mockup
+{
+  height: auto;
+}
+.mockup
+{
+  height:400px;
+  width: auto;
+
+ 
+}
+}
+
+@media (max-width: 1000px) and (min-width:710px)
+{
+  .template-image
+  {
+    height: 70vh;
+  }
+  .tmp-image
+{
+  height: 500px;
+  width: auto;
+}
+
+.home-page
+{
+  height: 100vh;
+  align-items: flex-start;
+  margin: 0 0 0 0;
+}
+
+.homepage-intro
+{
+  line-height: 2;
+  margin: 0;
+  margin-top: 15%;
+  height: 100%;
+}
+.homepage-image
+{
+  display: flex;
+  
+  align-items: flex-start;
+}
+.homepage-avatar
+{
+  margin: 0 auto;
+  max-width: 250px;
+  min-width: 100px;
+}
+}
+
