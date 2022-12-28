@@ -10,7 +10,18 @@ hr{
   background-color: white;
 
 }
+.proj-hp
+{
+  display: flex;
+}
 
+.cards
+{
+  display: flex;
+  dheight:50vh;
+  width: auto;
+  column-gap:10vw;
+}
 .home-page
 {
   margin:12% auto;
@@ -114,10 +125,22 @@ hr{
   margin-left: 4vw;
   margin-top: -1.5vw;
 }
-
+.proj
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.card-container
+{
+  width: auto;
+  column-gap: 4vw;
+}
 .proj-heading
 {
   text-decoration: underline #00FFF6;
+  display: inline-block;
 }
 
 .exp-heading
@@ -148,7 +171,7 @@ hr{
 
 .experience
 {
-  background-color: #e3e1db;
+  background-color: #fefdf9;
   color: #1A120B;
   font-weight: bolder;
 }
@@ -248,6 +271,13 @@ text-decoration: underline  #00ada7;
 
 @media (max-width: 700px)
 {
+  .card-container
+  {
+    row-gap: 13px;
+  }
+  .proj{
+    height:fit-content;
+  }
   .expproj
   {
     /*row-gap: 2vh;*/
