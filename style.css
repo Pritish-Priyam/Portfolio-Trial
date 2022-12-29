@@ -5,11 +5,11 @@ body
   font-family: 'Poppins',sans-serif;
   -webkit-text-size-adjust: 100%;
 }
-
-hr{ 
-  background-color: white;
-
+.resume:hover
+{
+  background-color: #00ffd08f;
 }
+
 .proj-hp
 {
   display: flex;
@@ -126,23 +126,33 @@ hr{
   margin-top: -1.5vw;
 }
 .proj
-{
+{ 
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 65vh;
+
 }
 .card-container
 {
-  width: auto;
+
   column-gap: 4vw;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .proj-heading
 {
-  text-decoration: underline #00FFF6;
-  display: inline-block;
+margin-top: 5vh;
+  text-decoration: underline solid 2px #00be91;
+  font-family: 'Roboto',sans-serif;
+  font-size: clamp(28px,6vh,45px);
+  display: block;
 }
 
+.creative-heading
+{
+  text-decoration: underline solid #64ffda;
+}
 .exp-heading
 {
   text-decoration: underline #000000;
@@ -283,6 +293,11 @@ text-decoration: underline  #00ada7;
     /*row-gap: 2vh;*/
     height: 90vh;
   }
+
+  .xyzabc
+  {
+    display: none;
+  }
   .expproj-card
   {
     justify-content: center;
@@ -371,7 +386,7 @@ text-decoration: underline  #00ada7;
 }
 }
 
-@media (max-width: 1000px) and (min-width:710px)
+@media (max-width: 1025px) and (min-width:710px)
 {
   .template-image
   {
@@ -385,7 +400,7 @@ text-decoration: underline  #00ada7;
 
 .home-page
 {
-  height: 100vh;
+  height: 90vh;
   align-items: flex-start;
   margin: 0 0 0 0;
 }
@@ -409,5 +424,12 @@ text-decoration: underline  #00ada7;
   max-width: 250px;
   min-width: 100px;
 }
+.xyzabc
+{
+  display: none;
 }
-
+.proj
+{
+  height: 75vh;
+}
+}
