@@ -47,7 +47,9 @@ body
 #homepage-hi
 {
   font-size: clamp(15px,1.25vw,30px);
+  animation: ease-in-out  10s;
 }
+
 
 #homepage-name
 {
@@ -259,6 +261,8 @@ margin-top: 5vh;
   margin-top: 2%;
   font-size: clamp(12px,1.15vw,24px);
   line-height: 1.75;
+  padding-left: 4.95%;
+  padding-right: 4.95%;
 }
 
 .ccme-head
@@ -311,6 +315,8 @@ text-decoration: underline  #00ada7;
   .lead2
   {
     width: 80vw;
+    padding-left: 0;
+    padding-right: 0;
   }
   .template-image
 {
@@ -433,4 +439,3 @@ text-decoration: underline  #00ada7;
   height: 75vh;
 }
 }
-
