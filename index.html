@@ -21,10 +21,10 @@
        
         
       </head>
-
+     
     <body id="homepage">
-
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent border-bottom " data-aos="fade-down" data-aos-delay="100" data-aos-duration="400">
+     
+        <nav class="navbar navbar-fixed navbar-expand-lg navbar-dark fixed-top bg-transparent border-bottom " data-aos="fade-down" data-aos-delay="100" data-aos-duration="400">
             <div class="container-fluid" >
               <a class="navbar-brand" href="#">Pritish</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,15 +54,15 @@
         
         <div class="container" >
             <div class="row home-page border-bottom" >
-                <div class="col-auto justify-content-center" data-aos="fade-right" data-aos-delay="100" data-aos-duration="500">
+                <div class="col-auto justify-content-center" >
                     <div class="homepage-intro" >
-                        <div id="homepage-hi" >Hi, my name is </div>
-                        <div id="homepage-name">Pritish Priyam.</div>
-                        <div class="homepage-brieftext">I'm a budding Web-Developer,
+                        <div id="homepage-hi" data-aos="fade-right" data-aos-delay="200" data-aos-duration="500">Hi, my name is </div>
+                        <div id="homepage-name" data-aos="fade-right" data-aos-delay="250" data-aos-duration="500">Pritish Priyam.</div>
+                        <div class="homepage-brieftext" data-aos="fade-right" data-aos-delay="350" data-aos-duration="500">I'm a budding Web-Developer,
                         who is working his way<br>through an undergrad in Computer Engineering.
                         This is my first project, amongst the many yet to come.
                         </div>
-                        <button class="btn btn-dark btn-lg homepage-learnmore">Learn more</button>
+                        <a href="#learn-more" <button class="btn btn-dark btn-lg homepage-learnmore" data-aos="fade-right" data-aos-delay="450" data-aos-duration="500">Learn more</button></a>
                     </div>
                 </div>
                 <div class="col-md  homepage-image" data-aos="fade-left" data-aos-delay="100" data-aos-duration="500">
@@ -83,8 +83,8 @@
               <h4 class="col-auto text-center  text-align-center  xyzabc">. . . . . . . . . </h4>
               
 
-              <div class="col-auto" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
-                <div class="card shadow" style="width: 18rem;">
+              <div class="col-auto" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="550">
+                <div class="card" style="width: 18rem;">
                   <img src="images/xChange.png" class="card-img-top" alt="...">
                   <div class="card-body bg-dark">
                     <h4 class="card-title fw-bold text-decoration-underline">xChange</h4>
@@ -100,8 +100,8 @@
                 </div>
               </div>
               
-              <div class="col-auto"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
-                <div class="card shadow" style="width: 18rem;">
+              <div class="col-auto"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="550">
+                <div class="card" style="width: 18rem;">
       
                   <img src="images/xChange.png" class="card-img-top" alt="...">
                   <div class="card-body bg-light text-dark" >
@@ -128,17 +128,17 @@
       
       </div>
     
-    <div class="container py-4 expproj" >
+    <div class="container py-4 expproj" id="learn-more">
          <div class="row align-items-md-stretch expproj-card">
           <div class="col-md-6">
-            <div class="h-100 p-5 text-bg-dark border rounded-3" data-aos="flip-right" data-aos-delay="150" data-aos-duration="600">
+            <div class="h-100 p-5 text-bg-dark border rounded-3" data-aos="flip-right" data-aos-delay="150" data-aos-duration="550">
               <h2 class="creative-heading" >Creative Pursuits</h2>
               <p>I love writing on anything and everything that piques my interest, especially if it ranges in the domain of tech. I'm a Writers' Club member for the OnePlus Community at the moment. Do check out some of my works.</p>
               <a href="https://community.oneplus.com/user/1034172621031473159" class="btn btn-outline-light" type="button">View Articles</a>
             </div>
           </div>
           <div class="col-md-6 ">
-            <div class="h-100 p-5 border rounded-3 experience"data-aos="flip-left" data-aos-delay="150" data-aos-duration="600">
+            <div class="h-100 p-5 border rounded-3 experience"data-aos="flip-left" data-aos-delay="150" data-aos-duration="550">
               <h2 class="exp-heading">Experience</h2>
               <p>I'm only a beginner right now, but I surely see myself entering this wonderful world of designing and developmen. All I'm looking for is at the moment is to gain experience and work on the skills I have so gained.</p>
               <a href="https://www.linkedin.com/in/pritish-priyam-953b1a229/" class="btn btn-outline-dark" type="button">Linkedin Profile</a>
@@ -146,7 +146,7 @@
           </div>
         </div>
 
-               <main class="px-3" data-aos="fade-up" data-aos-delay="150" data-aos-duration="600">
+               <main class="px-3" data-aos="fade-up" data-aos-delay="150" data-aos-duration="550">
                 <div class="row ccme">
                 <h1 class="ccme-head ">Contact Me</h1>
 
@@ -168,8 +168,8 @@
         </div>
         
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+         <script>
+        AOS.init();
+      </script>
     </body>
 </html>
