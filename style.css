@@ -474,22 +474,24 @@ display:none;
 }
 
 /* Track */
+/*
 ::-webkit-scrollbar-track {
   background: #978f8f;
   border-radius: 5px;
 
-}
+}*/
 
 /* Handle */
+/*
 ::-webkit-scrollbar-thumb {
   background: #00ffd08f;
   border-radius: 5px;
 
-}
+}*/
 
-/* Handle on hover */
+/* Handle on hover *//*
 ::-webkit-scrollbar-thumb:hover {
   background: #00ffd063;
   border-radius: 5px;
 
-}
+}*/
