@@ -5,6 +5,7 @@ body
   font-family: 'Poppins',sans-serif;
   -webkit-text-size-adjust: 100%;
 }
+
 .resume:hover
 {
   background-color: #00ffd08f;
@@ -46,7 +47,7 @@ body
 
 #homepage-hi
 {
-  font-size: clamp(15px,1.25vw,30px);
+  font-size: clamp(20px,1.5vw,25px);
   animation: ease-in-out  10s;
 }
 
@@ -86,7 +87,7 @@ body
   width:0;
   height:0;
 }
-.btn-dark
+.homepage-learnmore
 {
   border-color: #DC3535;
   color:#64ffda;
@@ -95,10 +96,10 @@ body
 
 .homepage-learnmore
 {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
-.btn-dark:hover
+.homepage-learnmore:hover
 {
   transform: scale(0.95);
   color:#dfdbcf;
@@ -106,7 +107,6 @@ body
 
 .navbar
 {
-  position: relative;
   top:4px;
   margin-right: 3%;
   margin-left: 1.55%;
@@ -253,6 +253,12 @@ margin-top: 5vh;
   text-align: center;
  
 }
+
+.expproj
+{
+  margin-top:5%;
+  margin-bottom: 5%;
+}
 .lead2
 {
 
@@ -282,12 +288,20 @@ text-decoration: underline  #00ada7;
 {
   color:#dfdbcf;
 }
-
+.container-footer
+{
+  height: 1vh;
+}
 @media (max-width: 700px)
 {
+
+  .top-arrow
+{
+display:none;
+}
   .card-container
   {
-    row-gap: 13px;
+    row-gap: 4vh;
   }
   .proj{
     height:fit-content;
@@ -316,7 +330,7 @@ text-decoration: underline  #00ada7;
   {
     width: 80vw;
     padding-left: 0;
-    padding-right: 0;
+    paddin-right: 0;
   }
   .template-image
 {
@@ -427,8 +441,9 @@ text-decoration: underline  #00ada7;
 .homepage-avatar
 {
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 200px;
   min-width: 100px;
+  margin-top: 15vh;
 }
 .xyzabc
 {
@@ -438,4 +453,43 @@ text-decoration: underline  #00ada7;
 {
   height: 75vh;
 }
+}
+.top-arrow
+{
+  max-width: 50px;
+  min-width: 35px;
+  aspect-ratio: 1;
+  position: fixed;
+  right:15px;
+  bottom: 10px;
+}
+.top-arrow:hover
+{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #978f8f;
+  border-radius: 5px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ffd08f;
+  border-radius: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffd063;
+  border-radius: 5px;
+
 }
